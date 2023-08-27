@@ -22,4 +22,5 @@ urlpatterns = [
     # path('user/', include('user.urls')),
     path('', views.home),
     path('login', views.login),
+    path('cart', views.cart),
 ]
